@@ -1,5 +1,13 @@
+// Enum representing the directions
+export enum Direction {
+  North = 'North',
+  South = 'South',
+  East = 'East',
+  West = 'West'
+}
 
-export const botMoving = (direction: "North" | "South" | "East" | "West",
+
+export const botMoving = (direction: Direction,
     position: number[]) => {
     switch (direction) {
         case 'North': {
