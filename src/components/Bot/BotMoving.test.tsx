@@ -51,5 +51,3 @@ describe('botMoving function', () => {
     });
 
 });
-
-
